@@ -3,6 +3,9 @@ import 'results_page.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'loader_screen.dart';
+import 'nav_bar.dart';
+
+
 
 class TeamSelectionPage extends StatefulWidget {
   @override
@@ -241,27 +244,7 @@ void getPrediction() async {
           ],
         ),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home, color: Colors.blueGrey),
-            label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.analytics, color: Colors.grey),
-            label: 'Stats',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.settings, color: Colors.grey),
-            label: 'Settings',
-          ),
-        ],
-        selectedItemColor: Colors.blueGrey,
-        unselectedItemColor: Colors.grey,
-        onTap: (index) {
-          // Handle navigation taps if needed
-        },
-      ),
+      bottomNavigationBar: BottomNavBar(selectedIndex: 0),
     );
   }
 }
