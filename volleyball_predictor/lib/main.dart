@@ -19,7 +19,7 @@ theme: ThemeData(
     bodyMedium: TextStyle(fontSize: 16, color: Colors.grey[800]),
   ),
   appBarTheme: AppBarTheme(
-    backgroundColor: Colors.deepPurple,
+    backgroundColor: Colors.blueGrey,
     titleTextStyle: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
     elevation: 0,
   ),

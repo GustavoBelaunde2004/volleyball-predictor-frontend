@@ -38,6 +38,8 @@ class BottomNavBar extends StatelessWidget {
           label: 'Settings',
         ),
       ],
+      selectedItemColor: Colors.blueGrey, // Set to your desired color
+      unselectedItemColor: Colors.grey,
       onTap: (index) {
         if (index == selectedIndex) return;
 
