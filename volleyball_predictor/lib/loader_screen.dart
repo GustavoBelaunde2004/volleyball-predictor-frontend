@@ -10,12 +10,16 @@ class LoaderScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             CircularProgressIndicator(
-              valueColor: AlwaysStoppedAnimation<Color>(Colors.deepPurple),
+              valueColor: AlwaysStoppedAnimation<Color>(Colors.blueGrey),
             ),
             SizedBox(height: 20),
             Text(
               "Fetching Prediction...",
-              style: TextStyle(fontSize: 18, color: Colors.deepPurple),
+              style: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+                color: Colors.blueGrey,
+              ),
             ),
           ],
         ),

@@ -11,10 +11,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Volleyball Match Predictor',
 theme: ThemeData(
-  primarySwatch: Colors.deepPurple, // Set a primary swatch
+  primarySwatch: Colors.blueGrey, // Set a primary swatch
   scaffoldBackgroundColor: Colors.grey[100],
   textTheme: TextTheme(
-    headlineMedium: TextStyle(fontSize: 32, fontWeight: FontWeight.bold, color: Colors.deepPurple),
+    headlineMedium: TextStyle(fontSize: 32, fontWeight: FontWeight.bold, color: Colors.blueGrey),
     titleLarge: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
     bodyMedium: TextStyle(fontSize: 16, color: Colors.grey[800]),
   ),
@@ -25,7 +25,7 @@ theme: ThemeData(
   ),
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
-      backgroundColor: Colors.deepPurple,
+      backgroundColor: Colors.blueGrey,
       foregroundColor: Colors.white,
       textStyle: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
     ),
@@ -34,9 +34,9 @@ theme: ThemeData(
     border: OutlineInputBorder(borderRadius: BorderRadius.circular(8)),
     focusedBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(8),
-      borderSide: BorderSide(color: Colors.deepPurple),
+      borderSide: BorderSide(color: Colors.blueGrey),
     ),
-    labelStyle: TextStyle(color: Colors.deepPurple),
+    labelStyle: TextStyle(color: Colors.blueGrey),
   ),
 ),
 
